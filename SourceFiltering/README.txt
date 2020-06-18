@@ -11,3 +11,12 @@ Sources.txt.result.txt is the result from the main script, and the name will be 
 
 
 This script should be run in python 3. 
+
+Note: For the excel version of the script, it will automatically write the results to excel files. However, libraries need to be installed before running.
+
+
+In the cmd of windows, these commands have to be run in order:
+
+
+python -m pip install -U pip
+pip install xlsxwriter 
